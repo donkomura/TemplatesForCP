@@ -60,10 +60,12 @@ template<class T>T gcd(T a, T b){ return b ? gcd(b, a % b) : a; }
 template<class T>T lcm(T a, T b){ return a / gcd(a, b) * b; }
 struct edge { int from, to, cost; };
 int dy[]={0, 1, -1, 0}; int dx[]={1, 0, 0, -1};
+// cout << fixed;
+// cout << setprecision(10) << val;
 
 signed main() {
  cin.tie(0);
  ios::sync_with_stdio(false);
-
+ 
   return 0;
 }
