@@ -25,6 +25,7 @@
 //
 #include <bits/stdc++.h>
 #define int long long
+#define ll long long 
 #define rep(i,a,b) for(int i=a;i<(b);++i)
 #define erep(i,a,b) for(int i=a;i<=(b);++i)
 #define per(i,a,b) for(int i=(a);i>(b);--i)
@@ -37,7 +38,7 @@
 #define ALL(x) begin(x),end(x)
 #define F first
 #define S second
-#define debug(x)  cerr << #x << ": " << (x) << '\n';
+#define debug(x)  cout << #x << ": " << (x) << '\n';
 const long long INF=1001001001001001001;
 const int MOD=(int)1e9 + 7;
 const double EPS=1e-9;
