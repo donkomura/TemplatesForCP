@@ -42,7 +42,6 @@ int dy[]={0, 1, -1, 0}; int dx[]={1, 0, 0, -1};
 signed main() {
  cin.tie(0);
  ios::sync_with_stdio(false);
-  vector<vector<int>> v(3, vector<int>(3, 1));
-  cout << v << endl;
   return 0;
 }
+
